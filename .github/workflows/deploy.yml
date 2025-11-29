@@ -27,4 +27,4 @@ jobs:
       run: |
         az deployment sub create \
           --location canadacentral \
-          --template-file main.bicep
+          --template-file iac-azure-v1\infra\main.bicep
